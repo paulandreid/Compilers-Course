@@ -18,7 +18,7 @@ int main()
 		if (option == true) { //CONSTRUCT 4
 			std::cout << "Insert name: "; //CONSTRUCT 7
 			std::cin >> name; //CONSTRUCT 6
-			std::cout<<"and age: "; 
+			std::cout << "and age: "; 
 			std::cin >> age;
 			persons[count] = new Person(name, age); //CONSTRUCT 2
 			averageAge += age; //CONSTRUCT 3
@@ -31,7 +31,7 @@ int main()
 	}
 	
 	
-	std::cout << "Average age is:" << averageAge/count<<"\n";
+	std::cout << "Average age is:" << averageAge / count<<"\n";
 	system("pause");
 	return 0;
 }
